@@ -1,0 +1,240 @@
+
+/* starrrrrt responsive */
+
+/* Styles for mobile devices */
+@media  (min-width: 300px) and (max-width: 579){
+
+    .background-div {
+        background-image: url("../images/1.jpg");
+        background-size: cover;
+        height: 130vh;
+        position: relative;
+    }
+
+    .image-div {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%;
+    }
+
+    .centered-text {
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        font-size: 5px;
+    }
+
+    .background-div .centered-text h1 {
+        font-size: 30px;
+        margin-right: 80px;
+
+    }
+
+    .background-div .centered-text h3 {
+        font-size: 10px;
+        margin-right: 80px;
+    }
+
+    .company-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #BB8357;
+        color: white;
+        padding: 20px;
+        height: 400px;
+        width: 80%;
+    }
+
+    .company-info p {
+        direction: rtl;
+        font-size: 15px;
+        text-size-adjust: 1px;
+        text-align: right;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .about_uus {
+        line-height: 2.0;
+    }
+
+    .company-info .do {
+        padding-top: 20px;
+        padding-right: 30px;
+        font-size: 5px;
+    }
+
+    .company-info a {
+        direction: rtl;
+        color: #fff;
+        text-decoration: none;
+        margin: 20px;
+        margin-left: 30px;
+        font-size: 18px;
+        border-bottom: 2px solid white;
+    }
+
+
+}
+
+@media (max-width: 580px) {
+
+    .background-div {
+        background-image: url("../images/1.jpg");
+        background-size: cover;
+        height: 130vh;
+        position: relative;
+    }
+
+    .image-div {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%;
+    }
+
+    .centered-text {
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .background-div .centered-text h1 {
+        font-size: 30px;
+    }
+
+    .background-div .centered-text h3 {
+        font-size: 15px;
+        margin-right: 80px;
+    }
+
+    .company-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #BB8357;
+        color: white;
+        padding: 20px;
+        height: 400px;
+        width: 80%;
+    }
+
+    .company-info p {
+        direction: rtl;
+        font-size: 15px;
+        text-size-adjust: 1px;
+        text-align: right;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .about_uus {
+        line-height: 2.0;
+    }
+
+    .company-info .do {
+        padding-top: 20px;
+        padding-right: 30px;
+        font-size: 10px;
+    }
+
+    .company-info a {
+        direction: rtl;
+        color: #fff;
+        text-decoration: none;
+        margin: 20px;
+        margin-left: 30px;
+        font-size: 18px;
+        border-bottom: 2px solid white;
+    }
+
+
+}
+
+
+
+/* Styles for tablets */
+@media (min-width: 581px) and (max-width: 991px) {
+    .background-div {
+        background-image: url("../images/1.jpg");
+        background-size: cover;
+        height: 130vh;
+        position: relative;
+    }
+
+    .image-div {
+        position: relative;
+        width: 100%;
+        height: 0;
+        padding-bottom: 75%;
+    }
+
+    .centered-text {
+        position: absolute;
+        top: 20%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #fff;
+        font-size: 10px;
+    }
+
+    .background-div .centered-text h1 {
+        font-size: 30px;
+    }
+
+    .background-div .centered-text h3 {
+        font-size: 15px;
+        margin-right: 80px;
+    }
+
+    .company-info {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #BB8357;
+        color: white;
+        padding: 20px;
+        height: 400px;
+        width: 80%;
+    }
+
+    .company-info p {
+        direction: rtl;
+        font-size: 15px;
+        text-size-adjust: 1px;
+        text-align: right;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .about_uus {
+        line-height: 2.0;
+    }
+
+    .company-info .do {
+        padding-top: 20px;
+        padding-right: 30px;
+        font-size: 10px;
+    }
+
+    .company-info a {
+        direction: rtl;
+        color: #fff;
+        text-decoration: none;
+        margin: 20px;
+        margin-left: 30px;
+        font-size: 18px;
+        border-bottom: 2px solid white;
+    }
+
+}

@@ -1,0 +1,522 @@
+/**    link fonts    **/
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+body {
+  font-family:'cairo', 'Poppins', sans-serif;
+  font-size: 14px;
+  background: #fff;
+  overflow-x: hidden;
+
+}
+
+/* #272A3D
+
+  color: #887679;
+  لون  الايقونات 
+*/
+
+/******* start header ********/
+.header.collapse {
+  direction: rtl;
+}
+
+.offcanvas-body {
+  color: #887679;
+  font-weight: bold;
+  font-family: 'cairo', 'Poppins', sans-serif;
+}
+
+/******* end header ********/
+
+
+
+
+/******* start about us ********/
+.background-div {
+  background-image: url("../images/1.jpg");
+  background-size: cover;
+  height: 130vh;
+  position: relative;
+
+}
+
+.image-div {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+}
+
+.centered-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+.company-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #BB8357;
+  color: white;
+  padding: 20px;
+  height: auto;
+  width: 80%;
+}
+
+.company-info p {
+  direction: rtl;
+  font-size: 15px;
+  text-size-adjust: 1px;
+  text-align: right;
+  padding: 10px;
+  margin: 0;
+}
+
+.about_uus {
+  line-height: 2.0;
+}
+
+.company-info .do {
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.company-info a {
+  direction: rtl;
+  color: #fff;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+  border-bottom: 2px solid white;
+}
+
+
+/* about_us page */
+
+.about-page {
+  background-image: url("../images/3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 329px;
+}
+
+.about-pagep {
+
+  margin-top: 300px;
+}
+
+.about-page .container a {
+  direction: rtl;
+  color: #fff;
+  text-decoration: none;
+  padding-top: 50px;
+  font-size: 25px;
+  border-bottom: 2px solid white;
+
+}
+
+/******* end aboutus *******
+
+
+/******* start services ********/
+.serv {
+  background-image: url("../images/5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #877768;
+  height: 400px;
+}
+
+.serv p {
+  direction: rtl;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 280px;
+  margin-left: 50px;
+  font-size: 35px;
+}
+
+.serv2 {
+  height: auto;
+  padding: 50px 0;
+}
+
+.serv2 p {
+  color: #877768;
+  margin-top: 20px;
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+
+.serv2 a {
+  direction: rtl;
+  color: #877768;
+  text-decoration: none;
+  margin-bottom: 50px;
+  font-size: 25px;
+  border-bottom: 2px solid #877768;
+}
+
+
+/* start our_teams */
+/* قسم "فريق العمل" */
+.our_teams {
+  height: auto;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.our_teams p {
+  direction: rtl;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.our_teams .team a {
+  direction: rtl;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 150px;
+  border-bottom: 2px solid #fff;
+  font-size: 30px;
+}
+
+/* تعديلات لشاشات الايفون */
+@media only screen and (max-width: 375px) {
+  .our_teams {
+    height: auto;
+  }
+
+
+  .our_teams .teams,
+  .our_teams .team a {
+
+    margin-right: 10px;
+    font-size: 20px;
+
+  }
+}
+
+/* قسم "شركاؤنا" */
+
+
+.our_partners {
+  background-image: url("../images/2.jpg");
+  background-size: contain;
+  height: auto;
+  padding: 50px 0;
+}
+
+.partner .par {
+  direction: rtl;
+  color: #877768;
+  margin-left: 50px;
+  font-size: 35px;
+}
+
+.our_partners .partner {
+  direction: rtl;
+  color: #877768;
+  text-decoration: none;
+
+  margin-left: 40px;
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+.our_partners .partner a {
+  direction: rtl;
+  color: #877768;
+  text-decoration: none;
+  /* margin-bottom: 100px; */
+  font-size: 25px;
+  border-bottom: 2px solid #877768;
+}
+
+/* تعديلات لشاشات الايفون */
+@media only screen and (max-width: 375px) {
+  .our_partners {
+    height: auto;
+  }
+
+  .our_partners p,
+  .our_partners .partners,
+  .our_partners .partner a {
+    margin-left: 20px;
+    font-size: 20px;
+  }
+}
+
+/* start our_expert */
+.our_expert {
+  background-color: #fff;
+  height: auto;
+  padding: 50px 0;
+}
+
+.expert .exp {
+  direction: rtl;
+  color: #877768;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 35px;
+}
+
+.our_expert p {
+  direction: rtl;
+  color: #877768;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.our_expert .expert {
+  direction: rtl;
+  color: #fff;
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 20px;
+  line-height: 2.5;
+}
+
+.our_expert .expert a {
+  direction: rtl;
+  color: #877768;
+  text-decoration: none;
+  margin-bottom: 100px;
+  font-size: 25px;
+  border-bottom: 2px solid #877768;
+}
+
+/* تعديلات لشاشات الايفون */
+@media only screen and (max-width: 375px) {
+  .our_expert {
+    padding-right: 20px;
+
+    height: auto;
+  }
+
+  .our_expert p,
+  .our_expert .expert,
+  .our_expert .expert a {
+    padding-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+  }
+}
+
+/* last_div */
+
+.last_div {
+  background-image: url("../images/4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+
+
+.last_div p {
+  color: #887668;
+  padding-top: 30px;
+  font-size: 20px;
+  line-height: 2.5;
+
+
+}
+
+/******* end main ********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******* start contact ********/
+/* styles.css */
+
+/* Common styles for all screen sizes */
+.black-background {
+  background-color: #28293C;
+  padding: 0px;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info h2 {
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+
+.contact-info .doct h2 {
+  font-family: 'cairo';
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact-info h3 {
+  margin-bottom: 190px;
+  font-size: 35px;
+}
+
+.number_cont {
+  margin-left: 30%;
+  margin-right: 20%;
+}
+
+.contact-info .list {
+  direction: ltr;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.contact-info li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-info li i {
+  margin-right: 10px;
+  color: #BB8357;
+
+
+}
+
+.number_const .fax i {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 20%;
+  font-size: 15px;
+  background-color: transparent;
+}
+
+.number_const .mobile i {
+
+
+  font-size: 35px;
+}
+
+.number_const .phone i {
+  border: 2px solid #fff;
+  padding: 5px;
+  border-radius: 20%;
+  font-size: 20px;
+  color: #BB8357;
+}
+
+.number_const .fa, .fas {
+  font-weight: 100;
+}
+
+.number_const .fa, .far, .fas {
+  font-family: FontAwesome;
+}
+.links ul {
+  direction: ltr;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Footer styles */
+footer {
+  background-color: #28293C;
+  color: white;
+  padding: 20px 0;
+}
+
+.footer_s {
+  margin-top: 30px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-nav ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  padding: 0;
+}
+
+.footer-nav li a {
+  font-size: 20px;
+  color: white;
+  margin-right: 10px;
+  margin-left: 30px;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  .number_cont {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .contact-info h2 {
+    font-size: 40px;
+  }
+
+  .contact-info .doct h2 {
+    font-size: 30px;
+  }
+
+  .contact-info h3 {
+    margin-bottom: 100px;
+    font-size: 25px;
+  }
+
+  .contact-info li {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .footer-nav li a {
+    font-size: 16px;
+
+  }
+}

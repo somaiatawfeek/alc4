@@ -1,0 +1,139 @@
+body {
+    width: 100vw;
+}
+
+.company-info {
+    width: 100vw;
+}
+
+.background-div {
+
+
+    height: 140vh;
+
+}
+
+.text-right {
+    padding: 10%;
+}
+
+.our_teams {
+    background-image: url("../images/y3.jpg");
+
+    background-size: cover;
+    width: 100%;
+
+}
+
+@media (min-width: 769px) {
+    .our_teams {
+        background-image: url("../images/3.jpg");
+
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .text-right {
+        padding: 2%;
+        padding-top: 1%;
+    }
+
+    .our_teams a {
+        margin-left: 15%;
+    }
+
+    .our_partners {
+        background-image: url("../images/2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-position: center;
+    }
+
+    .our_teams p {
+        font-size: 25px;
+        line-height: 2.5;
+        padding: 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .background-div {
+
+
+        height: 120vh;
+        background-size: cover;
+    }
+
+    .company-info {
+
+        width: 80%;
+
+    }
+
+    .our_service {
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .our_teams {
+
+        background-image: url("../images/33.jpg");
+        width: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding: 1px;
+        height: 50vh;
+    }
+
+    .team {
+        padding: 1px;
+        margin: 0px;
+
+
+    }
+
+    .text-right {
+        padding: 2%;
+        font-size: 18px;
+
+    }
+
+    .our_teams p {
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    .our_teams a {
+        padding-bottom: 5%;
+    }
+
+    .our_partners {
+        background-image: url("../images/2.jpg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 0px;
+        width: 100%;
+    }
+
+    .partners {
+        padding-right: 2%;
+        margin-top: 0px;
+    }
+
+    .text-right {
+        margin-top: 3px;
+        margin-right: 8%;
+        margin-bottom: 1%;
+        line-height: 1.5;
+    }
+}
+
+.row {
+    width: 100%;
+    margin: 0px;
+}
+
+.company-info {
+    width: 80%;
+}
